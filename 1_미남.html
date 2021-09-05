@@ -1,61 +1,13 @@
-<!DOCTYPE html>
 
 <html>
   <head>
-    <title>'가을', 첫번째 이야기</title>
+    <title>Serendipity</title>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&family=Great+Vibes&family=Italianno&family=La+Belle+Aurore&family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
 
     <style>
-    h1{
-      font-family:"Segoe Script";
-      font-size : 50px;
-      font-style :italic;
-      color:grey;
-      border-bottom: 2px dashed lightgrey;
-      padding: 30px;
-      margin : 10px;
-      display : block; /*width : 100px*/
-      text-align: center;
-      margin:0;
-
-    }
-
-
-        #menu1{
-          list-style:none;
-          margin:3px 10px;
-          padding:0 0 44px 0;
-          display: block;
-          border-bottom :2px dashed lightgrey;
-        }
-
-        #menu2{
-          font-family:"카페24 써라운드 에어";
-          font-color:black;
-          font-size :15px;
-          margin:10px;
-          padding:5px 0 0 0;
-          float : left;
-        }
-
-        #title1{
-          list-style:none;
-          margin:5px 20px;
-          padding:20px 0 64px 0;
-          border-right :2px groove lightgrey;
-          width:150px;
-        }
-
-        .title2{
-          font-family:"카페24 써라운드 에어";
-          font-color:black;
-          font-size :15px;
-          margin:10px;
-          padding:5px 0 5px 0;
-        }
-
-
-
 
     a{
       text-decoration-line:none;
@@ -73,7 +25,7 @@
     }
 
     a:active{ /*클릭한 상태의 컬러*/
-      color : deeppink;
+      color : black;
     }
 
     a:focus{ /*탭키 눌러서 선택상자*/
@@ -88,14 +40,14 @@
     #al {
       color:grey;
       text-align:center;
-      font-size: 12px;
+      font-size: 14px;
     }
 
     p{
-      font-size: 18px;
-      font-family:"Mapo꽃섬";
+      font-size: 20px;
+      font-family: 'Gowun Batang', sans-serif;
       text-align:center;
-      line-height:35px;
+      line-height:50px;
     }
     img{
       margin:0 auto;
@@ -103,9 +55,10 @@
 
     }
     #title{
-      font-size : 30px;
+      font-size : 40px;
       font-style :bold;
     }
+
     #poet{
       padding-left:200px
     }
@@ -115,10 +68,64 @@
       grid-template-columns: 150px 1fr;
     }
 
-    li #active{
-      font-color:pink;
-      color:pink;
+
+    h1{
+
+      font-family: 'Great Vibes', cursive;
+      font-size : 70px;
+      font-style :italic;
+      color:gray;
+      border-bottom: 2px dashed lightgrey;
+      padding: 30px;
+      margin : 10px;
+      display : block; /*width : 100px*/
+      text-align: center;
+      margin:0;
+
     }
+
+
+    #menu1{
+      list-style:none;
+      margin:3px 10px;
+      padding:0 0 44px 0;
+      display: block;
+      border-bottom :2px dashed lightgrey;
+    }
+
+    #menu2{
+      font-family: 'Gowun Dodum', serif;
+      color:black;
+      font-size :15px;
+      margin:10px;
+      padding:0 0 0 0;
+      float : left;
+    }
+
+    #title1{
+      list-style:none;
+      margin:5px 20px;
+      padding:20px 0 64px 0;
+      border-right :2px groove lightgrey;
+      width:150px;
+    }
+
+    .title2{
+      font-family: 'Gowun Dodum', serif;
+      font-color:black;
+      font-size :15px;
+      margin:10px;
+      padding:5px 0 5px 0;
+    }
+
+    .poet{
+      background-color:#7FAEB3;
+      color:white;
+      font-size:12px;
+      display:inline;
+
+    }
+
 
     </style>
 
@@ -129,24 +136,28 @@
 
   <ul id="menu1">
     <li id="menu2"><a href = "1.html">첫번째 이야기, '가을'</a></li>
+
   </ul>
 
 
 <div id="grid">
   <ul id="title1">
-    <li class="title2"><a href="1_5분선생.html">가을시 _5분선생</a></li>
-    <li class="title2"><a href="1_니니.html">가을하늘 _니니</a></li>
-    <li class="title2"><a href="1_쪽파.html">가을과 너 _쪽파</a></li>
-    <li class="title2"><a href="1_광부.html">모닝 커피 _광부</a></li>
-    <li class="title2"><a href="1_미남.html">간다 _미남</a></li>
-    <li class="title2"><a href="1_흙.html">가을과 그리움 _흙</a></li>
-    <li class="title2"><a href="1_꽃잎.html">드리움 _꽃잎</a></li>
+    <li class="title2"><a href="1_5분선생.html">가을시 <div class="poet"> &nbsp5분선생&nbsp </div></a></li>
+    <li class="title2"><a href="1_니니.html">가을하늘 <div class="poet"> &nbsp니니&nbsp </div></a></li>
+    <li class="title2"><a href="1_쪽파.html">가을과 너 <div class="poet"> &nbsp쪽파&nbsp </div></a></li>
+    <li class="title2"><a href="1_광부.html">모닝 커피 <div class="poet"> &nbsp광부&nbsp </div></a></li>
+    <li class="title2"><a href="1_미남.html">간다 <div class="poet"> &nbsp참새&nbsp </div></a></li>
+    <li class="title2"><a href="1_흙.html">가을과 그리움 <div class="poet"> &nbsp흙&nbsp </div></a></li>
+    <li class="title2"><a href="1_꽃잎.html">드리움 <div class="poet"> &nbsp꽃잎&nbsp </div></a></li>
+    <li class="title2"><a href="1_청렴결백.html">추해(秋海)<div class="poet"> &nbsp청렴결백&nbsp </div></a></li>
+    <li class="title2"><a href="1_음음음.html">동상 <div class="poet"> &nbsp음음음&nbsp </div></a></li>
   </ul>
+
 
 
   <div>
     <p id="title"><br>간다</p>
-    <p id="poet">미남</p>
+    <p id="poet">참새</p>
     <p >밤만 되면 괴롭히던 모기도<br>
 밤낮없이 돌아가던 선풍기도<br>
 타는듯이 뜨거운 태양도<br><br>
